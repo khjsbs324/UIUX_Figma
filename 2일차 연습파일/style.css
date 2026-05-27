@@ -1,0 +1,14 @@
+div {
+    /* 주석: 웹상에서는 px단위를 사용한다. */
+    height: 100px;
+    
+}
+.box01 {
+  background-color: red;
+}
+.box02 {
+  background-color: orange;
+}
+.box03 {
+  background-color: blue;
+}
