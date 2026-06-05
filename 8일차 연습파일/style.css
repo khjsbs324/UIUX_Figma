@@ -33,6 +33,19 @@ main {
     background-color: #6bbe3b;
     flex-grow: 1;
 }
+.sct-03 {
+    border: 1px solid red;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* height: 600px;
+    align-content: space-between; */
+    row-gap: 20px;
+} 
+.sct03-li {
+    border: 1px solid orange;
+    width: 427px; height: 246px;
+}
 footer {
     border-bottom: 2px solid #E3E3E3;
     height: 68px;
