@@ -1,0 +1,12 @@
+body{margin: 0; padding: 0;}
+a {
+    /* inherit -> 상속 */
+    color: inherit;
+    text-decoration: none;
+}
+button {
+    background-color: transparent;
+    padding: auto;
+    /* none -> 없다 */
+    border: none; outline: none;
+}

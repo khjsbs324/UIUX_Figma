@@ -1,0 +1,28 @@
+header {
+    border: 1px solid red;
+}
+main {
+    border: 1px solid red;
+}
+.bestsellers-section {
+    border: 5px solid orange;
+    /* width: 1920px; 가로 스크롤 활성화 -> x */
+    padding: 124px 80px;
+}
+.ul-nav {
+    border: 1px solid green;
+    padding-top: 65px; padding-bottom: 65px;
+    display: flex; justify-content: space-between;
+}
+.section-title {
+    border: 1px solid blue;
+}
+.view-all {
+    border: 1px solid blue;
+}
+.amp-swiper {
+    border: 1px solid green;
+}
+footer {
+    border: 1px solid red;
+}

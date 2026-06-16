@@ -1,0 +1,33 @@
+.best-pro-btn {
+    border: 1px solid #E1DED9;
+    background: #FFF;
+    /* flex-grow 임의값 410px */
+    width: 410px;
+    padding-top: 12px; padding-bottom: 12px;
+    color: #212529;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 21px; /* 150% */
+    letter-spacing: 0.06px;
+    
+    /* text-transform: capitalize;
+    font-family: Raleway;
+    font-style: normal; */
+
+    transition: 0.5s;
+}
+.best-pro-btn:hover {
+    background-color: #212529;
+    color: #E1DED9;
+}
+
+/*
+<div>글자</div>
+div {
+    width: 500px;
+    padding-top: 12px; padding-bottom: 12px;
+    background-color: gray;
+    text-align: center;
+}
+*/
