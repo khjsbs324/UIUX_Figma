@@ -1,0 +1,91 @@
+.bestsellers-section {
+    border: 5px solid orange;
+    /* width: 1920px; 가로 스크롤 활성화 -> x */
+    padding: 124px 80px;
+}
+.ul-nav {
+    border: 1px solid green;
+    padding-top: 65px; padding-bottom: 65px;
+    display: flex; justify-content: space-between;
+}
+.section-title {
+    border: 1px solid blue;
+}
+.view-all {
+    border: 1px solid blue;
+}
+.amp-swiper {
+    border: 1px solid green;
+    display: flex;
+}
+.best-product-list {
+    flex-grow: 1; display: flex;
+    flex-direction: column;
+    /* flex-basis: flex-item전용 width속성 
+    flex-basis(flex-item만 사용 가능) = width(모든 속성값에 사용 가능)
+    예시)flex-basis: 0; = wdith: 0;(가독성 flex-basis 선호) */
+    /* flex-grow를 사용 했을때 무조건 flex-basis: 0; 사용X
+    일정한 비율을 원할때 -> flex-basis 사용, 하위 구성요소 크기에 따라
+    비율을 가져야 할때 -> flex-basis사용X */
+    /* 구성요소 예시: 이미지, 박스, 글자 등.. 웹사이트에 보이는 모든 것 */
+    /* 태그 = 객체 = node */
+    flex-basis: 0;
+}
+.best-product-list01{border: 3px solid red;}
+.best-product-list02{border: 3px solid rgb(221, 2, 2);}
+.best-product-list03{border: 3px solid rgb(148, 1, 1);}
+.best-product-list04{border: 3px solid rgb(58, 1, 1);}
+
+.best-img-box {
+    border: 1px solid orange;
+    height: 410px;
+    background-color: #ebebeb;
+}
+.best-discount-title {
+    border: 1px solid orange;
+    padding-top: 40px; padding-bottom: 42px;
+}
+.best-discount-subhead {
+    border: 1px solid orange;
+    padding-bottom: 40px;
+}
+.best-price-capacity {
+    border: 1px solid orange;
+    padding-top: 14px; padding-bottom: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+.best-price {
+    border: 1px solid orange;
+} 
+.best-capacity {
+    border: 1px solid orange;
+}
+.best-capacity-30ml {
+    border: 1px solid orange;
+}
+.best-capacity-60ml {
+    border: 1px solid orange;
+}
+.best-pro-btn {
+    border: 1px solid #E1DED9;
+    background: #FFF;
+    flex-grow: 1;
+    padding-top: 12px; padding-bottom: 12px;
+    color: #212529;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 21px; /* 150% */
+    letter-spacing: 0.06px;
+    
+    /* text-transform: capitalize;
+    font-family: Raleway;
+    font-style: normal; */
+
+    transition: 0.5s;
+}
+.best-pro-btn:hover {
+    background-color: #212529;
+    color: #E1DED9;
+}
