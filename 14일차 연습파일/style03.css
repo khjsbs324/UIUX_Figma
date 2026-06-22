@@ -1,0 +1,8 @@
+.img-box02 {
+    background-color: red;
+}
+
+/* 3단계: 너비속성과 높이속성 두가지 다 커스텀 -> 종횡비 비활성화 */
+.img-box02 > img {
+    width: 500px; height: 500px;
+}
