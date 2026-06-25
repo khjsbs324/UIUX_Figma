@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SSENSE 상단바(완료)</title>
+    <link rel="stylesheet" href="normal.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="popup">Sale doesn’t get better—up to 70% off SS26 styles.</div>
+        <div class="top-bar">
+            <nav class="menu01">
+                <ul class="menu01-ul">
+                    <li class="m01-item m01-item01"><a href="#" target="_blank" title="Menswear">Menswear</a></li>
+                    <li class="m01-item m01-item02"><a href="#" target="_blank" title="Womenswear">Womenswear</a></li>
+                    <li class="m01-item m01-item03"><a href="#" target="_blank" title="Everything else">Everything else</a></li>
+                    <li class="m01-item m01-item04"><a href="#" target="_blank" title="sale">sale</a></li>
+                    <li class="m01-item m01-item05"><a href="#" target="_blank" title="search">search</a></li>
+                </ul>
+            </nav>
+            <h1 class="logo-box"><a href="#" target="_blank" title="home">
+                <!-- inline -> 여백, 좌표 고정 / 해결: display속성값 변경 mark, span, a, img 
+                /nav,header -> 의미만 부여 -->
+                <img src="./image/logo-img.svg" alt="로고 이미지">
+            </a></h1>
+            <div class="user-box">
+                <!-- ul.user-box-ul>li.user-item.user-item0$*4>a[href="#" target="_blank" title="search"] -->
+                 <ul class="user-box-ul">
+                    <li class="user-item user-item01"><a href="#" target="_blank" title="English">English</a></li>
+                    <li class="user-item user-item02"><a href="#" target="_blank" title="login">login</a></li>
+                    <li class="user-item user-item03"><a href="#" target="_blank" title="wishlist">wishlist</a></li>
+                    <li class="user-item user-item04"><a href="#" target="_blank" title="bag(0)">bag(0)</a></li>
+                 </ul>
+            </div>
+            <!--
+             ul:user-box-ul
+             (4개)li:user-ltem
+            -->
+        </div>
+    </header>
+</body>
+</html>
