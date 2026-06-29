@@ -1,0 +1,38 @@
+.static {
+    width: 100px; height: 100px;
+    background-color: red;
+    font-weight: 700; color: #fff;
+    /* 기본값 */
+    position: static;
+}
+
+.absolute {
+    width: 150px; height: 150px;
+    background-color: #000;
+    font-weight: 700; color: #fff;
+    font-size: 20px;
+    position: absolute;
+    z-index: 1;
+    /* 위치 속성, 속성값은 px, % 등.. 사용가능 */
+    /* left(왼쪽) right(오른쪽) top(위쪽) bottom(아래쪽) */
+    /* 4개 방향 중 원하는 방향을 선택해서 시작한다.(내가 원하는 좌표에서부터 시작가능) */
+    /* 좌표 기준 설정x -> body태그 기준 이동 */
+    left: 200px; top: 100px;
+}
+
+.fixed {
+    width: 200px; height: 200px;
+    background-color: orange;
+    font-weight: 700; color: #fff;
+    font-size: 24px;
+    position: fixed;
+}
+
+.relative {
+    width: 500px; height: 500px;
+    /* 1완벽한 불투명도, 0완벽한 투명도, 0.1~0.9 */
+    /* rgba -> 배경색과 투명도를 함께 조절 속성값 */
+    background-color: rgba(0, 10, 0, 0.3);
+    font-weight: 700; color: #333;
+    font-size: 28px; text-align: right;
+}
