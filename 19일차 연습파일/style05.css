@@ -1,1 +1,84 @@
 /* 1차 구현 상단바에 2차 상단바 적용(평소 비활성 / 마우스 hover 활성화) */
+
+.popup::before {
+    /* 아무것도 작성하지 않아도 content: ""; 코드 필수 */
+    content: "";
+    width: 30px;
+}
+.popup {
+    background-color: #E8E8E8;
+    padding-top: 12px; padding-bottom: 12px;
+    /* text-align: center; */
+    color: #000;
+    font-size: 10px;
+    line-height: 15px; /* 145.631% */
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px; padding-right: 20px;
+}
+.popup::after {
+    content: "X";
+    font-size: 20px;
+    cursor: pointer;
+    width: 30px; text-align: right;
+}
+.top-bar {
+    padding: 16px 20px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    transition: 0.5s;
+}
+.top-bar:hover {
+    /* calc() -> 속성값에서 사칙연산 가능 */
+    /* padding: calc(16px + 8px); */
+    padding-top: calc(16px + 8px);
+    padding-bottom: calc(16px + 8px);
+}
+.menu01 {
+    width: 388px;
+}
+.menu01-ul {
+    display: flex; gap: 16px;
+    align-items: center;
+    height: 100%;
+}
+.m01-item {
+    color: #000; font-size: 11px;
+    line-height: 15px; /* 136.364% */
+}
+.menu02 {
+    background-color: orange;
+    opacity: 0.3;
+    font-size: 50px; font-weight: 700;
+    display: none;
+    position: absolute;
+    /* 상단바 안 구성요소가 많은경우 스크롤과 합쳐져 가로 스크롤 발생 가능성 높음
+    width: 100%; */
+    /* top: 100%; -> top-bar높이값 */
+    left: 0; right: 0; top: 100%;
+}
+/* 이벤트 코드는 아래에 작성한다. -> 로딩 오류 조심 */
+/* .menu01에 마우스를 올리면 .menu02이 나타난다. */
+.menu01:hover > .menu02 {
+    display: block;
+}
+
+.logo-box {
+    display: flex; align-items: center;
+}
+.user-box {
+    width: 388px;
+    display: flex;
+    justify-content: flex-end;
+    /* align-items: stretch; */
+}
+.user-box-ul {
+    display: flex; gap: 16px;
+    align-items: center;
+    /* height: auto; 100% */
+}
+.user-item {
+    color: #000; font-size: 11px;
+    line-height: 15px; /* 136.364% */
+}
