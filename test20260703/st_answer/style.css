@@ -1,0 +1,34 @@
+header {
+    border: 1px solid red;
+}
+.top-bar {
+    border: 1px solid orange;
+    display: flex;
+    padding-left: 100px; padding-right: 100px;
+    justify-content: space-between;
+    height: 116px;
+}
+.logo-box {
+    border: 1px solid green;
+    align-self: center;
+}
+.logo-box img {
+    width: 220px;
+}
+.menu01 {
+    border: 1px solid green;
+}
+.menu01>ul {
+    display: flex;
+    height: 100%; align-items: center;
+}
+.user-box {
+    border: 1px solid green;
+    align-self: center;
+}
+.user-box>ul {
+    display: flex;
+}
+.user-item03>a {
+    display: flex;
+}
